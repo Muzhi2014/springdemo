@@ -3,8 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.springdemo</groupId>
 	<artifactId>springwebdemo</artifactId>
-	<packaging>war</packaging>
+	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
+	<modules>
+		<module>li-learn</module>
+	</modules>
 	<name>springwebdemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
